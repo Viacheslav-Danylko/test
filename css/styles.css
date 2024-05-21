@@ -16,6 +16,10 @@ body {
   line-height: 1.5;
 }
 
+main {
+  flex-grow: 1;
+}
+
 h1,
 h2,
 h3,
@@ -131,4 +135,28 @@ img {
   font-weight: 500;
   font-size: 14px;
   text-decoration: none;
+}
+
+.page-footer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #212121;
+}
+
+.page-footer .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.copyright-text {
+  color: #fff;
+  flex-basis: 300px;
+}
+
+.social-links {
+  display: flex;
+  gap: 8px;
+  flex-shrink: 0;
+  align-self: flex-end;
 }
